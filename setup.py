@@ -86,7 +86,6 @@ setup(
     packages=find_packages('.', exclude=["tests*"]),
     python_requires='>=3.6, <4',
     install_requires=[
-        'sqlalchemy>=1.4,<1.5',
         'requests',
         'clickhouse-driver>=0.1.2'
     ],
@@ -97,7 +96,6 @@ setup(
     test_suite='nose.collector',
     tests_require=[
         'nose',
-        'sqlalchemy>=1.4,<1.5',
         'requests',
         'responses',
         'parameterized'
